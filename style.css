@@ -151,6 +151,7 @@ h1 {
 
 .links > a {
 	background-color: var(--rp-overlay);
+	border: 1px solid var(--rp-muted);  /* NOTE: border required for high contrast mode */
 	border-radius: var(--radius);
 	padding: var(--gaps);
 	text-align: center;
