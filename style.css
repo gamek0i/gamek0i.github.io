@@ -57,7 +57,8 @@
 }
 
 html, body {
-	height: 100%
+	height: 100%;
+	font-size: 1.2rem;
 }
 
 body {
@@ -82,7 +83,6 @@ p {
 .container {
 	border-radius: var(--radius);;
 	padding: var(--gaps);
-	font-size: 24pt;
 	gap: 0.5rem;
 	background: color-mix(in srgb, var(--rp-overlay), transparent var(--transparency));
 	backdrop-filter: blur(var(--blur));
@@ -97,13 +97,6 @@ p {
 	flex-wrap: wrap;
 }
 
-/* handle smaller screens by making the container take up the full page (remove
- * rounded corners) */
-@media screen and (max-width: 941px)  {
-	.container {
-		border-radius: 0px;
-	}
-}
 
 .title {
 	display: flex;
@@ -126,7 +119,6 @@ h2 {
 	font-style: italic;
 	text-align: center;
 	margin-bottom: 0px;
-	font-size: 30pt;
 	color: var(--rp-gold);
 	font-weight: var(--default-weight);
 }
@@ -138,7 +130,6 @@ h1 {
 	text-align: center;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	font-size: 40pt;
 }
 
 .links {
@@ -156,7 +147,6 @@ h1 {
 	padding: var(--gaps);
 	text-align: center;
 	text-decoration: none;
-	font-size: 24pt;
 	cursor: pointer;
 	transition: background-color 0.5s;
 	width: 100%;
@@ -200,4 +190,12 @@ h1 {
 	width: 24pt;
 	height: 24pt;
 	padding-left: var(--gaps);
+}
+
+/* handle smaller screens by making the container take up the full page (remove
+ * rounded corners) */
+@media screen and (max-width: 914px)  {
+	.container {
+		border-radius: 0px;
+	}
 }
