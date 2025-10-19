@@ -64,7 +64,7 @@ body {
 	display: flex;
 	margin: 0px;
 	flex-direction: column;
-	background-image: url('./assets/pond-bg.jpg');
+	background-image: url('./assets/pond-bg.avif');
 	background-color: var(--rp-base);
 	background-position: center;
 	font-family: var(--text-font);
