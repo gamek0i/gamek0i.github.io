@@ -97,6 +97,14 @@ p {
 	flex-wrap: wrap;
 }
 
+/* handle smaller screens by making the container take up the full page (remove
+ * rounded corners) */
+@media screen and (max-width: 941px)  {
+	.container {
+		border-radius: 0px;
+	}
+}
+
 .title {
 	display: flex;
 	align-items: stretch;
