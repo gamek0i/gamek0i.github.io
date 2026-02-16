@@ -16,20 +16,20 @@
 	src: url(https://cdn.jsdelivr.net/fontsource/fonts/maple-mono@latest/latin-800-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/maple-mono@latest/latin-800-normal.woff) format('woff');
 }
 
-/* nunito-latin-wght-normal */
+/* sn-pro-latin-400-normal */
 @font-face {
-	font-family: 'Nunito Variable';
+	font-family: 'SN Pro';
 	font-style: normal;
 	font-display: swap;
-	font-weight: 200 1000;
-	src: url(https://cdn.jsdelivr.net/fontsource/fonts/nunito:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
+	font-weight: 400;
+	src: url(https://cdn.jsdelivr.net/fontsource/fonts/sn-pro@latest/latin-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/sn-pro@latest/latin-400-normal.woff) format('woff');
 	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 
 :root {
 	/* font configuration */
 	--title-font: 'Maple Mono', monospace;
-	--text-font: 'Nunito Variable', sans-serif;
+	--text-font: 'SN Pro', sans-serif;
 	--link-weight: 500;
 	--default-weight: 400;
 	--title-weight: 700;
