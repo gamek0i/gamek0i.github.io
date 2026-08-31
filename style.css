@@ -65,7 +65,7 @@ body {
 	display: flex;
 	margin: 0px;
 	flex-direction: column;
-	background-image: url('./assets/pond-bg.avif');
+	background-image: url('./assets/lilypad-bg.avif');
 	background-color: var(--rp-base);
 	background-position: center;
 	font-family: var(--text-font);
